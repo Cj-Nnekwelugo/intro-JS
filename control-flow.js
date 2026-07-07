@@ -83,39 +83,71 @@ else {
 5 satu
 6 sunday 
 */
-const day = 5;
-if (day === 0) {
-    console.log("Monday");
-} else if (day === 1) {
-    console.log("Tuesday");
-} else if (day === 2) {
-    console.log("Wednesday");
-} else if (day === 3) {
-    console.log("Thursday");
-} else if (day === 4) {
-    console.log("Friday");
-}else if (day === 5) {
-    console.log("Saturday");
-} else {
-    console.log("Sunday");
+const day = 9;
+switch (day) {
+    case 0:
+        console.log("Monday");
+        break;
+    case 1:
+        console.log("Tuesday");
+        break;
+    case 2:
+        console.log("Wednesday");
+        break;
+    case 3:
+        console.log("Thursday");
+        break;
+    case 4:
+        console.log("Friday");
+        break;
+    case 5:
+        console.log("Saturday");
+        break;
+    case 6:
+        console.log("Sunday");
+        break;
+
+    default:
+    console.log("Invalid day number");
+
 }
 
-
-
+const elevatorFloor = 3;
+switch (elevatorFloor) {
+    case 1:
+        console.log("You are on the first floor.");
+        break;
+    case 2:
+        console.log("You are on the second floor.");
+        break;
+    case 3:
+        console.log("You are on the third floor.");
+        break;
+    case 4:
+        console.log("You are on the fourth floor.");    
+    default:
+        console.log("Invalid floor number.");
+}
 
 const dayNumber = 1;
-if (dayNumber === 1){
-    console.log("Monday");
-}
-if (dayNumber === 2){
-    console.log("Tuesday");
-}
-if (dayNumber === 3){
-    console.log("Wednesday");
-}
-if (dayNumber === 4){
+switch (dayNumber) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+
+    case 4: 
     console.log("Thursday");
-}
+    break;
+
+
+
+}    
 
 let age = 18;
 
