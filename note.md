@@ -35,3 +35,19 @@ Use switch when you're checking one variable against many exact values.
 Use if...else when you're checking ranges or different conditions.
 
 break, break tells JavaScript to stop executing the switch statement after a matching case has been found and executed.
+
+"break stops the entire loop, while continue skips the current iteration and moves to the next one."
+
+
+Arrays start from 0 because JavaScript uses zero-based indexing."
+
+
+
+| Method      | Meaning                   |
+| ----------- | ------------------------- |
+| `push()`    | Add to the end            |
+| `pop()`     | Remove from the end       |
+| `unshift()` | Add to the beginning      |
+| `shift()`   | Remove from the beginning |
+
+
