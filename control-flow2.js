@@ -11,23 +11,6 @@ for (let i = 1; i <= 10; i++) {
 }
 
 
-let count = 1;
-
-let count = 1;
-while (count <= 10) {
-    console.log(count);
-    count++;
-}
-
-let otp = Math.floor(Math.random() * 9000) + 1000;
-
-console.log(otp);
-
-
-
-
-
-
 // for in loop 
 
 const person = {
@@ -39,3 +22,20 @@ const person = {
 for (const key in person) {
     console.log(key);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
