@@ -119,3 +119,46 @@ function calculateTotal(price1, price2, price3) {
     console.log(deliveryMessage);
 }
 calculateTotal(3000, 4000, 5000);
+
+
+function calculateKelvinTemp(tempInCelsius) {
+    return 273 + tempInCelsius;
+
+}
+console.log(calculateKelvinTemp(25));
+
+
+// function expressions (ananymous function)
+
+const subtractTwoNumbers = function(num1, num2) {
+  console.log(num1 - num2);
+}
+subtractTwoNumbers(10, 5);
+
+
+const person = {
+    name: 'John',
+    age: 30,
+    getbirthYear: function() {
+        return new Date().getFullYear() - this.age;
+    }
+
+}
+console.log(person.getbirthYear());
+
+
+/* 
+========== Class Activity ============
+
+Write a function called calculateBMI that takes weight (in kg) and height (in meters) and prints the BMI. Formula: BMI = weight / (height × height)
+
+*/
+
+const calculateBMI = function (weight, height) {
+    return weight / (height ** 2);
+
+}
+console.log(calculateBMI(70, 1.7));
+
+
+
