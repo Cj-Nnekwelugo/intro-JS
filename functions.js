@@ -162,3 +162,73 @@ console.log(calculateBMI(70, 1.7));
 
 
 
+// arrow function 
+{
+    const addTwoNumbers = () => {
+
+    }
+    const addTwoNumbersWithParams = (num1, num2) => {
+
+    }
+}
+
+
+// implicit arrow functions
+
+{
+    const addTwoNumbers = (num1, num2,) => num1 + num2;
+    console.log(addTwoNumbers(10, 9));
+
+    const greetUser = (name) => console.log(`hello $(name)`);
+    greetUser("john");
+
+    const sayHello = () => console.log("Hello world")
+    sayHello();
+}
+
+/* ========= Class Activity =================
+Write a function called getStringLength that takes a string and prints its length.
+
+*/
+
+// single variable
+    const getStringLength = string => string.length;
+    console.log(getStringLength("Cj"));
+
+
+
+// Explicit arrow functions
+
+/* 
+============ Class Activity ============
+Create a function called rectanglePerimeter that takes length and width as parameters and prints the perimeter. Formula: Perimeter = 2 × (length + width)
+
+*/
+
+{ // inplict
+    let rectanglePerimeter = (length, width) => length * width;
+    console.log(rectanglePerimeter(5, 4))
+
+}
+// explict
+let rectanglePerimeter = (length, width) => {
+    return length * width;
+}
+
+let area = rectanglePerimeter(5, 4);
+console.log(area);
+
+
+
+// callback function .a function that is passed as a argument to another function
+{
+    const addTwoNumbers = (x, y) => x + y;
+
+    const doExponent  = (callback, x, + y) => {
+    const sumResult = callback(x,y);
+    console.log(sumResult ** 3);
+}
+
+
+    }
+// working with dates ,date constructions and date methods
