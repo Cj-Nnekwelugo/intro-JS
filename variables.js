@@ -37,3 +37,4 @@ let isStudent = true;
 let myVoteFor2026 = "tinibu";
 
 console.log("My name is " + myName + ", I am " + myAge + " years old, and I am a student: " + isStudent + ". my vote is for tinibu " + myVoteFor2026 + "."); 
+
