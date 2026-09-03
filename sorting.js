@@ -30,3 +30,6 @@ console.log("Sorted by name:", sortedByName);
 
 const sortedByScore = students.sort((a, b) => b.score - a.score);
 console.log("Sorted by score:", sortedByScore);
+
+
+
