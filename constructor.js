@@ -11,6 +11,4 @@ student1.greet();
 const student2 = new Student("Bob", 22);
 student2.greet();
 
-function 
-
 
